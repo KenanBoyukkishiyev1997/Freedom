@@ -1,0 +1,117 @@
+body{
+	background-image: url(../Img/demiryol.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.conteniar{
+	margin:10px auto;
+	width: 90%;
+	background-color: #fff;
+	height: auto;
+}
+
+.top{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav{
+	text-align: center;
+	padding-bottom: 10px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a.active{
+	color: blue;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 0 5px;
+	color: black;
+}
+
+.clear{
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+
+.left img{
+	width: 370px;
+	height: 180px;
+}
+
+
+.right{
+	position: relative;
+	left: 50px;
+	text-align: left;
+
+}
+
+.right h1{
+	padding-bottom: 5px;
+}
+
+.right button{
+	background-color: aquamarine;
+	margin-top: 20px;
+	padding: 5px;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 20%;
+	outline: none;
+}
+
+.history{
+	display: flex;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.road h1{
+	padding: 0 90px;
+	font-size:30px;
+}
+
+.fail{
+	display: flex;
+	padding-left: 90px;
+	padding-top: 40px;
+	position: relative;
+	bottom: 240px;
+}
+
+.title{
+	right: 18px;
+	position: relative;
+	bottom: 50%;
+}
+
+.fail i{
+	padding: 0 10px;
+}
+
+.home{
+	margin: 0 77px;
+}
+
+.home img{
+	width: 140%;
+	height: 350px;
+}
